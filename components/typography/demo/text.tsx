@@ -4,7 +4,7 @@ import { Space, Typography } from 'antd';
 const { Text, Link } = Typography;
 
 const App: React.FC = () => (
-  <Space direction="vertical">
+  
     <Text>Ant Design (default)</Text>
     <Text type="secondary">Ant Design (secondary)</Text>
     <Text type="success">Ant Design (success)</Text>
@@ -21,7 +21,7 @@ const App: React.FC = () => (
     <Link href="https://ant.design" target="_blank">
       Ant Design (Link)
     </Link>
-  </Space>
+  
 );
 
 export default App;
